@@ -1,5 +1,12 @@
 # Stock Price Forecasting Tool
 
+---
+
+Deployable Link:
+https://stockpriceforecaster.streamlit.app/
+
+---
+
 Create a tool that allows users to select and train a machine learning model to predict stock closing prices. The tool allows users to input a ticker symbol and a time period, and it retrieves stock data for the specified ticker and period from Yahoo Finance. The tool then trains and evaluates a machine learning model on the stock data, and it displays a plot of the model's predictions against the true values.
 
 The available machine learning models are:
