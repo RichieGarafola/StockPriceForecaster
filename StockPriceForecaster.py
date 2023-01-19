@@ -14,7 +14,6 @@ from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-
 # Create an input form to specify the ticker and period
 st.sidebar.header('Input')
 ticker = st.sidebar.text_input('Ticker', "AAPL")
@@ -127,11 +126,6 @@ if model_name == 'XGBoost':
     # Display the plot in the main panel
     st.pyplot()    
     
-    
-    
-    
-
-
 # Additional Visualization
 
 # Plot the stock data as a line chart
